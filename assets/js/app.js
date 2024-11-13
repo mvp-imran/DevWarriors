@@ -10,7 +10,7 @@ document.body.appendChild(script);
 
 let header = $(`
 <nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
-<a class="navbar-brand" href="index.html">John Doe </a>
+<a class="navbar-brand" href="index.html">Dev Warriors</a>
 <div class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
   <div id="js-hamburger" class="hamburger">
@@ -24,7 +24,6 @@ let header = $(`
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto" id = "navbar-content">
    <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experience</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
@@ -435,6 +434,31 @@ $(window).on("load", function () {
   }, 1000);
   $(".loader-container").fadeOut(2500);
 });
+
+let slideIndex = 0;
+
+function showSlides() {
+    let slides = document.querySelectorAll('.slide');
+    if (slideIndex >= slides.length) {
+        slideIndex = 0; // Reset to first slide
+    }
+    if (slideIndex < 0) {
+        slideIndex = slides.length - 1; // Go to last slide
+    }
+    // Move the slides container to the correct position to show the current slide
+    document.querySelector('.slides').style.transform = `translateX(${-slideIndex * 100}%)`;
+}
+
+function autoSlide() {
+    slideIndex++;
+    showSlides();
+}
+
+// Initialize the slider
+showSlides();
+
+// Auto slide every 3 seconds
+setInterval(autoSlide, 4000); // Change slide every 4 seconds
 
 //send button animation
 
