@@ -10,7 +10,9 @@ document.body.appendChild(script);
 
 let header = $(`
 <nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
-<a class="navbar-brand" href="index.html">Dev Warriors</a>
+<a class="navbar-brand" href="index.html">
+    <img src="assets/images/DevWarrios-Logo.PNG" alt="Dev Warriors" style="height: 40px;">
+</a>
 <div class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
   <div id="js-hamburger" class="hamburger">
@@ -24,8 +26,8 @@ let header = $(`
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto" id = "navbar-content">
    <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="">About Us</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="">Indian Os</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">About Us</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Indian Os</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">R&D</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Products</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Services</a></li>
