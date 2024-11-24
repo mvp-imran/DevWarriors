@@ -26,11 +26,11 @@ let header = $(`
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto" id = "navbar-content">
    <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">About Us</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Indian Os</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">R&D</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Products</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Services</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="about.html">About Us</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Indian OS</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">R&D</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="products.html">Products</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="services.html">Services</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="event.html">Blogs</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>

@@ -3,27 +3,7 @@ $(document).ready(function () {
   const eventswiper = document.querySelector(".swiper-wrapper");
   const event = [
     // eslint-disable-next-line linebreak-style
-    {
-      title: "Talk on ABC",
-      image: "assets/images/event/image3.jpg",
-    },
-    {
-      title: "Keynote on XYZ",
-      image: "assets/images/event/image2.jpg",
-    },
-    { title: "Group Picture", image: "assets/images/event/image1.jpg" },
-    {
-      title: "Presentation",
-      image: "assets/images/event/image4.jpg",
-    },
-    {
-      title: "Note on XYZ",
-      image: "assets/images/event/image5.jpg",
-    },
-    {
-      title: "Keytopics",
-      image: "assets/images/event/image6.jpg",
-    },
+    
     {
       title: "The Gist",
       image: "assets/images/event/image7.jpg",
